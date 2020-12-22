@@ -45,12 +45,6 @@
             # Set a 200 (okay) response code.
             http_response_code(200);
             echo "Thank You! Your message has been sent.";
-            if ($mail_sent == true){ ?>
-                <script language="javascript" type="text/javascript">
-                alert('Thank you for the message. We will contact you shortly.');
-                window.location = 'index.html';
-                </script>
-            <?php }
         } else {
             # Set a 500 (internal server error) response code.
             http_response_code(500);
