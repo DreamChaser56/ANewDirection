@@ -37,7 +37,6 @@
 
         # email headers.
         $headers = 	"Request Of Service";
-        $mail_sent = mail($mail_to, $subject, $content, $headers);
         # Send the email.
         if (mail($mail_to, $subject, $content, $headers)) {
             # Set a 200 (okay) response code.
