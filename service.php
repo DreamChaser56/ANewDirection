@@ -45,6 +45,7 @@
             # Set a 200 (okay) response code.
             http_response_code(200);
             echo "Thank You! Your message has been sent.";
+	    alert("'Thank you for the message. We will contact you shortly.'");
         } else {
             # Set a 500 (internal server error) response code.
             http_response_code(500);
