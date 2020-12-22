@@ -1,0 +1,2 @@
+[1217/113431.316:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\Nicholas Smith\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\b5f883f0-36d8-4bfc-a64c-d9674151b9ed: The system cannot find the path specified. (0x3)
+[1217/113431.318:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
